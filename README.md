@@ -1,15 +1,18 @@
-# Basic Sample Hardhat Project
+# A trading bot on DEFI
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Looks to arb DAI/WETH pair on Uniswap V2 and Sushiswap
 
-Try running some of the following tasks:
+# Stack
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+Solidity
+Nodejs
+Hardhat
+Ethers
+
+# The bot is prices.js
+
+This is based on 2 courses from Dapp University and Crypto Wizards
+
+```
+
 ```
